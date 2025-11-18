@@ -6,7 +6,42 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #000;
+}
+
+/* Тёмная тема */
+
+.dark-theme {
+    background-color: #333;
+    color: #ffff;
+}
+
+.dark-theme #btn {
+    background-color: #333;
+    color: #ffff;
+}
+
+.dark-theme a {
+    color: #ffff;
+}
+
+.dark-theme .text_1 {
+    color: #ffff;
+}
+
+.dark-theme .phone,
+.dark-theme .clock,
+.dark-theme .mail,
+.dark-theme .geolocation {
+    color: #ffff;
+}
+
+.dark-theme .menu_1 a,
+.dark-theme .menu_2 a,
+.dark-theme .menu_3 a,
+.dark-theme .menu_4 a,
+.dark-theme .menu_5 a {
+    color: #ffff;
 }
 
 /*Первый блок*/
@@ -23,6 +58,13 @@ header {
     height: 57px;
     top: 22px;
     left: 405px;
+    position: absolute;
+}
+#btn {
+    width: 100px;
+    height: 40px;
+    top: 35px;
+    left: 35px;
     position: absolute;
 }
 .png_logo {
